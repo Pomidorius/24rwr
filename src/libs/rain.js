@@ -26,7 +26,7 @@ function RainDrops(x, y, endy, velocity, opacity) {
 	}
 
 	this.update = function() {
-		let rainEnd = window.innerHeight + 100;
+		let rainEnd = window.innerHeight + 150;
 		if (this.y >= rainEnd) {
 			this.y = this.endy - 100;
 		} else {
